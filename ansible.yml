@@ -1,4 +1,5 @@
-2hosts: all
+---
+hosts: all
 become: true
 tasks:
   - name: create new deployment
